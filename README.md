@@ -2,6 +2,14 @@
 
 A Claude Code plugin that generates production-ready **Pact contract tests for Java (JUnit 5)** — interactively or in one shot.
 
+## Plugins
+
+| Plugin | Description | Install |
+|---|---|---|
+| [pactjunitplugin](https://github.com/zakariahere/pactjunitplugin) | Generates production-ready Pact contract tests for Java (JUnit 5) | `claude plugin install zakariahere/pactjunitplugin` |
+
+---
+
 ## What It Does
 
 Contract testing with [Pact](https://docs.pact.io/) requires a lot of boilerplate: annotations, DSL chains, matchers, provider states, and Maven config. This plugin handles all of it. Give it an OpenAPI spec or describe your API, and it produces complete, compilable test classes you can drop straight into your project.

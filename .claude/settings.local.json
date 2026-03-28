@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//c/Users/Zakaria/.local/bin//**)",
+      "Read(//c/Users/Zakaria/.local/bin/**)",
+      "Read(//c/Users/Zakaria/.claude/plugins/marketplaces/sba-marketplace/plugins/sba/.claude-plugin/**)",
+      "Read(//c/Users/Zakaria/.claude/plugins/marketplaces/sba-marketplace/plugins/sba/**)",
+      "Bash(cp \"C:/workspace/playground/pactjunitplugin/.claude-plugin/plugin.json\" /tmp/claude-plugins-check/plugins/pactjunitplugin/.claude-plugin/plugin.json)",
+      "Bash(cp \"C:/workspace/playground/pactjunitplugin/SKILL.md\" /tmp/claude-plugins-check/plugins/pactjunitplugin/SKILL.md)",
+      "Bash(cp \"C:/workspace/playground/pactjunitplugin/commands/\"* /tmp/claude-plugins-check/plugins/pactjunitplugin/commands/)",
+      "Bash(cp \"C:/workspace/playground/pactjunitplugin/references/dsl/\"* /tmp/claude-plugins-check/plugins/pactjunitplugin/references/dsl/)",
+      "Bash(cp \"C:/workspace/playground/pactjunitplugin/references/\"*.md /tmp/claude-plugins-check/plugins/pactjunitplugin/references/)"
+    ]
+  }
+}
